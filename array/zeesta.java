@@ -1,5 +1,5 @@
 import java.util.*;
-class zeend{
+class zeesta{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter range");
@@ -11,13 +11,12 @@ class zeend{
         System.out.println("Elements are");
         for(int i=0;i<n;i++){
         System.out.println(a[i]);}
-        System.out.println("zeros at end");
+        System.out.println("zeros at start");
+         for(int i = 0; i < n; i++) {
+    if(a[i] == 0) {
+        System.out.println(a[i]);
+    }}
         for(int i=0;i<n;i++){
         if (a[i]!=0){
         System.out.println(a[i]);}}
-        for(int i = 0; i < n; i++) {
-    if(a[i] == 0) {
-        System.out.println(a[i]);
-    }
-}
 }}
